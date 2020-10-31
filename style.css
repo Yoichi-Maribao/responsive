@@ -36,8 +36,8 @@ header {
 
 .content-img {
     height: 150px;
-    background-size: 280px 100%;
-    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
 }
 
 .content-box:nth-child(1) .content-img {
@@ -74,5 +74,9 @@ footer {
     }
     .content-box:last-child {
         margin-right: auto;
+    }
+    
+    .content-img {
+        background-size: cover;
     }
 }
